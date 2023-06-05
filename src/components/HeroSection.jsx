@@ -17,7 +17,7 @@ function HeroSection() {
           autoPlay
           loop
           muted
-          src="./assets/hero_video.mp4"
+          src="./assets/hero_video.webm"
           type="video/mp4"
         />
       </div>
