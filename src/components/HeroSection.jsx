@@ -1,0 +1,28 @@
+import "./HeroSection.css";
+import Card_1 from "./Card_1";
+
+function HeroSection() {
+  return (
+    <section class="relative overflow-hidden h-screen w-screen bg-black">
+      <Card_1
+        title={"Book Your Table"}
+        description={
+          "Delight in an exquisite dining experience with our enchanting reservations. Immerse yourself in refined flavors and impeccable service."
+        }
+        btn_text={"Reserve Now"}
+      />
+
+      <div class="fixed top-0 bottom-0 z-0">
+        <video
+          autoPlay
+          loop
+          muted
+          src="./assets/hero_video.mp4"
+          type="video/mp4"
+        />
+      </div>
+    </section>
+  );
+}
+
+export default HeroSection;
