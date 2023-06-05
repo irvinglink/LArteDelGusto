@@ -1,14 +1,14 @@
-import "./ContentSection.css";
+import "./DoubleContentSection.css";
 
-function ContentSection({ title, description, img, direction}) {
+function DoubleContentSection({ title, description, img, direction}) {
   
     
   return (
     <div class="relative block w-screen h-5/6 bg-black">
-      <div class={`flex ${direction=='left' ? 'flex-row' : 'flex-row-reverse'}`}> 
+      <div class={`flex ${direction==='left' ? 'flex-row' : 'flex-row-re'}`}> 
 
         <div className="left-container">
-          <img src={img}></img>
+          <img src={img} alt="No Image"/>
         </div>
 
         <div className="right-container">
@@ -23,4 +23,4 @@ function ContentSection({ title, description, img, direction}) {
   );
 }
 
-export default ContentSection;
+export default DoubleContentSection;

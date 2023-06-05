@@ -1,6 +1,6 @@
-import './Card_1.css'
+import './HeroCard.css'
 
-function Card_1 ({title, description, btn_text}) {
+function HeroCard ({title, description, btn_text}) {
 
 
     return (
@@ -25,4 +25,4 @@ function Card_1 ({title, description, btn_text}) {
 }
 
 
-export default Card_1;
+export default HeroCard;

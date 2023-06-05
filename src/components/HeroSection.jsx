@@ -1,10 +1,10 @@
 import "./HeroSection.css";
-import Card_1 from "./Card_1";
+import HeroCard from "./HeroCard";
 
 function HeroSection() {
   return (
     <section class="relative overflow-hidden h-screen w-screen bg-black">
-      <Card_1
+      <HeroCard
         title={"Book Your Table"}
         description={
           "Delight in an exquisite dining experience with our enchanting reservations. Immerse yourself in refined flavors and impeccable service."

@@ -22,8 +22,16 @@
     z-index: 30;
     color: white;
     font-weight: lighter;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
 }
 
+.reserve-btn:hover {
+    font-weight: normal;
+}
+
+/* 
 .reserve-btn:after {
     content: "";
     position: absolute;
@@ -33,12 +41,13 @@
     width: 0;
     bottom: -2px;
     transition: 0.3s;
-}
+} 
+*/
 
-.reserve-btn:hover {
-    font-weight: normal;
-}
 
+/* 
 .reserve-btn:hover::after {
     width: 100%;
-}
+} 
+*/
+

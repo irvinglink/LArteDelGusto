@@ -7,7 +7,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       parisienne: ["Parisienne", 'sans-serif'],
-      montserrat: ['Montserrat', 'sans-serif']
+      montserrat: ['Montserrat', 'sans-serif'],
+      playfair: ['Playfair', 'serif']
     }
   },
   plugins: [],
