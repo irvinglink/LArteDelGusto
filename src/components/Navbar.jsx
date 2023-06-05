@@ -1,6 +1,15 @@
+import { useState } from 'react';
 import './Navbar.css'
+import {BiMenuAltRight} from 'react-icons/bi'
 
 function Navbar () {
+
+    const [menu, setMenu] = useState(false)
+
+    const handleMenu = () => {
+        setMenu(!menu)
+        console.log(menu)
+    }
 
     return (
         <nav className="navbar-content">
@@ -13,6 +22,9 @@ function Navbar () {
                 <a href="# " className="btn-primary">About</a>
                 <a href="# " className="btn-primary">Menu</a>
                 <a href="# " className="btn-primary">Account</a>
+            
+                <BiMenuAltRight class='cursor-pointer' onClick={handleMenu} size={'2rem'} color='#fff' />
+            
             </div>
 
         </nav>

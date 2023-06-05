@@ -1,0 +1,15 @@
+.left-container {
+    width: 50%;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50%;
+    color: white;
+    padding: 5%;
+}

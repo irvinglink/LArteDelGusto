@@ -33,3 +33,12 @@
 .btn-primary:hover::after {
     width: 100%;
 }
+
+.soft-line {
+    border-width: 1px;
+    border-color: #A6996B;
+    width: 75%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
