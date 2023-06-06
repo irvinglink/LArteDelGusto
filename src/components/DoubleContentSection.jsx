@@ -8,7 +8,7 @@ function DoubleContentSection({ title, description, img, direction}) {
       <div class={`flex ${direction==='left' ? 'flex-row' : 'flex-row-re'}`}> 
 
         <div className="left-container">
-          <img src={img} alt="No Image"/>
+          <img src={img} alt="none"/>
         </div>
 
         <div className="right-container">

@@ -9,31 +9,29 @@ function App() {
   return (
     <div class="overflow-x-hidden">
       <Navbar />
+
       <HeroSection />
-
       {sections.map((section) => {
-          if(section.type === 'single') {
-            return (
-              <SingleContentSection
-                title={section.title}
-                description={section.description}
-                img={section.img}
-              />
-            );
-          }
+        if (section.type === "single") {
+          return (
+            <SingleContentSection
+              title={section.title}
+              description={section.description}
+              img={section.img}
+            />
+          );
+        }
 
-          if(section.type === 'double') {
-            return (
-              <DoubleContentSection
-                title={section.title}
-                description={section.description}
-                img={section.img}
-                direction={section.direction}
-              />
-            );
-          }
-
-          
+        if (section.type === "double") {
+          return (
+            <DoubleContentSection
+              title={section.title}
+              description={section.description}
+              img={section.img}
+              direction={section.direction}
+            />
+          );
+        }
       })}
     </div>
   );

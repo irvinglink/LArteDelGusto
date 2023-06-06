@@ -7,11 +7,13 @@ export const sections = [
     img: "./assets/wine.jpg",
     direction: 'left' /* Left / Right, use on type: double*/
   },
+  
   {
     type: "single",
-    title: "Immerse in the Artful of Masterpieces",
+    title: "• Immerse in the Artful of Masterpieces •",
     description:
       "Discover a space that exudes a serene elegance, inviting you to savor every moment. With a perfect balance of tranquility and sophistication, our haven offers an unforgettable dining experience filled with timeless sophistication.",
     img: "./assets/chef.jpg",
   },
+
 ];
