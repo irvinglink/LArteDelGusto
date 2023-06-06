@@ -11,7 +11,9 @@ function App() {
       <Navbar />
 
       <HeroSection />
+      
       {sections.map((section) => {
+
         if (section.type === "single") {
           return (
             <SingleContentSection
@@ -32,6 +34,7 @@ function App() {
             />
           );
         }
+
       })}
     </div>
   );

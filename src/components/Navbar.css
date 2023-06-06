@@ -1,44 +1,50 @@
 .navbar-content {
-    display: flex;
-    position: fixed;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100vw;
-    height: 4rem;
-    padding: 1rem;
-    z-index: 50;
-    background-color: rgba(0, 0, 0, .7);
-    /* backdrop-filter: blur(8px); */
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 4rem;
+  padding: 1rem;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* backdrop-filter: blur(8px); */
 }
 
-
 .btn-primary {
-    position: relative;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    color: white;
-}   
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: white;
+  display: block;
+}
 
 .btn-primary:after {
-    content: "";
-    position: absolute;
-    background-color: white;
-    height: 2px;
-    width: 0;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s;
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
 }
 
 .btn-primary:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
-.soft-line {
-    border-width: 1px;
-    border-color: #A6996B;
-    width: 75%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .btn-primary {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
 
 }
